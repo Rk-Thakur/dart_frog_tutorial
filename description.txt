@@ -1,0 +1,16 @@
+Dart Frog Tutorials
+    run on development: dart_frog dev
+
+build for production: dart_frog build    
+
+to run in terminal:
+    curl --request  GET --url http://localhost:8080
+
+to add more routes:
+    dart_frog new route "/lists/index" // that means lists is new folder 
+
+to create a new middleware
+    dart_frog new middleware "/" // which will create a middleware in routes folder
+
+to hanlde dependency injection need to required to use provider in the handler  of middleware
+ 
